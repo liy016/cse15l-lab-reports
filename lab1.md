@@ -17,12 +17,12 @@ command `cat ./lecture1`: 1. absoulate path before command was run: `/c/Users/HU
                           2. Explanation: Running `cat ./lecture1` tries to display the contents of a directory, which is not allowed.
                           3. Output: It is error. `cat: ./lecture1: Is a directory`, indicating that `directory`is a directory.
 command `cd messages`: 1. absoluate path before command was run: `/c/Users/HUAWEI`.
-                       2. Explanation: 
-                       3. Output: It has no output
+                       2. Explanation: Running `cd messages` tries to change the current directory to a file, which is not allowed.
+                       3. Output: It is error. `bash: cd: messages/en-us.txt: Not a directory`, indicating that `messages/en-us.txt` is not a direcory.
 command `ls messages`: 1. absoluate path before command was run: `/c/Users/HUAWEI`.
-                       2. Explanation:
-                       3. Output: 
+                       2. Explanation: Running `ls messages/en-us.txt` displays the contents of the specified file.
+                       3. Output: `messages/en-us.txt`
 command `cat messages/en-us.txt`: 1. absoluate path before command was run: `/c/Users/HUAWEI`.
-                                  2. Explanation:
-                                  3. Output:Hello World! ¡Hola Mundo! 你好世界
+                                  2. Explanation: Running `cat messages/en-us.txt messages/es-mx.txt messages/zh-cn.txt` displays the contents of the specified file.
+                                  3. Output: `Hello World!` `¡Hola Mundo!` `你好世界`
 
