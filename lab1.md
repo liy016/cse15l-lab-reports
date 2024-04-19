@@ -42,7 +42,7 @@ command `ls ./lecture1`:<br>
 >    
 2. Explanation: Running `ls ./lecture1` lists the contents of the specified directory.<br>
 >    
-3. Output: `Hello.class  Hello.java  messages/  README`.<br>
+3. Output: It is not an error and it output is `Hello.class  Hello.java  messages/  README`.<br>
 > 
 command `cat ./lecture1`:<br>
 >
@@ -69,7 +69,7 @@ command `ls messages/en-us.txt`:<br>
 > 
 2. Explanation: Running `ls messages/en-us.txt` displays the contents of the specified file.<br>
 > 
-3. Output: `messages/en-us.txt`<br>
+3. Output: It is not an error and it output is `messages/en-us.txt`<br>
 > 
 command `cat messages/en-us.txt`:<br>
 >
@@ -77,5 +77,5 @@ command `cat messages/en-us.txt`:<br>
 > 
 2. Explanation: Running `cat messages/en-us.txt messages/es-mx.txt messages/zh-cn.txt` displays the contents of the specified file.<br>
 > 
-3. Output: `Hello World!`.
+3. Output: It is not an error, and it output is `Hello World!` 
 
