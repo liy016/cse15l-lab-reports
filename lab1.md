@@ -1,19 +1,12 @@
 # Lab Report 1
 ## Share an example of using the command with no arguments.
 ![image](noarguments.jpg)
->
-> command `cd`:
->
-> absolute path before command was run: `/c/Users/HUAWEI`.
->
-> Explanation: Running `cd` command with no arguments changes the current directory to the user's home directory.
->
-> Output: It has no output and the directory changes to the user's home directory.
-> 
-> command `ls`:
->
-> absoluate path before command was run: `/c/Users/HUAWEI`.
->
+> command `cd`: <br>
+absolute path before command was run: `/c/Users/HUAWEI`. <br>
+Explanation: Running `cd` command with no arguments changes the current directory to the user's home directory. <br>
+Output: It has no output and the directory changes to the user's home directory. <br>
+command `ls`: <br>
+absoluate path before command was run: `/c/Users/HUAWEI`.
 > Explanation: Running `ls` with no arguments lists the contents of the current directory.
 >
 > Output: It display lists of files and directories in my laptop.
