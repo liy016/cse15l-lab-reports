@@ -1,23 +1,18 @@
 # Lab Report 1
 ## Share an example of using the command with no arguments.
 ![image](noarguments.jpg)
-> command `cd`: <br>
-absolute path before command was run: `/c/Users/HUAWEI`. <br>
-Explanation: Running `cd` command with no arguments changes the current directory to the user's home directory. <br>
-Output: It has no output and the directory changes to the user's home directory. <br>
-command `ls`: <br>
-absoluate path before command was run: `/c/Users/HUAWEI`.
-> Explanation: Running `ls` with no arguments lists the contents of the current directory.
->
-> Output: It display lists of files and directories in my laptop.
-> 
-command `cat`:
-> 
-> absolute path before command was run: `/c/Users/HUAWEI`.
-> 
-> Explanation: Running `cat` command with no arguments tries to display the contents of a non-existent file that the terminal will wait for my input something.
->
-> Output: It is error, because it does not display anything and users can quit with ctrl z. 
+command `cd`: <br>
+absolute path before command was run: `/c/Users/HUAWEI`.<br>
+Explanation: Running `cd` command with no arguments changes the current directory to the user's home directory.<br>
+Output: It has no output and the directory changes to the user's home directory.<br>
+command `ls`:<br>
+absoluate path before command was run: `/c/Users/HUAWEI`.<br>
+Explanation: Running `ls` with no arguments lists the contents of the current directory.<br>
+Output: It display lists of files and directories in my laptop.<br>
+command `cat`:<br>
+absolute path before command was run: `/c/Users/HUAWEI`.
+Explanation: Running `cat` command with no arguments tries to display the contents of a non-existent file that the terminal will wait for my input something.
+Output: It is error, because it does not display anything and users can quit with ctrl z. 
 ## Share an example of using the command with a path to a directory as an argument.
 ![image](file.jpg)
 >
