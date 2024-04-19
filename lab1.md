@@ -50,7 +50,7 @@ command `cat ./lecture1`:<br>
 > 
 2. Explanation: Running `cat ./lecture1` tries to display the contents of a directory, which is not allowed.<br>
 > 
-3. Output: It is error. `cat: ./lecture1: Is a directory`, indicating that `directory`is a directory.<br>
+3. Output: It is error. `cat: ./lecture1: Is a directory`, because `cat` cannot directly print a directory.<br>
 >
 ## Share an example of using the command with a path to a file as an argument.
 ![image](files.jpg)
