@@ -1,6 +1,6 @@
 # Lab Report 1
 ## Share an example of using the command with no arguments.
-![image](noarguments.jpg)
+![image](noarguments.jpg)<br>
 >
 command `cd`: <br>
 >
@@ -27,7 +27,7 @@ command `cat`:<br>
 3. Output: It is not an error.<br>
 >
 ## Share an example of using the command with a path to a directory as an argument.
-![image](directory.jpg)
+![image](directory.jpg)<br>
 command `cd ./lecture1`:<br>
 >
 1. absolute path before command was run: `/c/Users/HUAWEI`.<br>
@@ -53,7 +53,7 @@ command `cat ./lecture1`:<br>
 3. Output: It is error. `cat: ./lecture1: Is a directory`, because `cat` cannot directly print a directory.<br>
 >
 ## Share an example of using the command with a path to a file as an argument.
-![image](files.jpg)
+![image](files.jpg)<br>
 > 
 command `cd messages/en-us.txt`:<br>
 >
