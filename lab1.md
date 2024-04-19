@@ -53,15 +53,15 @@ command `cat ./lecture1`:<br>
 3. Output: It is error. `cat: ./lecture1: Is a directory`, indicating that `directory`is a directory.<br>
 >
 ## Share an example of using the command with a path to a file as an argument.
-![image](file.jpg)
+![image](files.jpg)
 > 
 command `cd messages/en-us.txt`:<br>
 >
 1. absoluate path before command was run: `/c/Users/HUAWEI`.<br>
 > 
-2. Explanation: Running `cd messages` tries to change the current directory to a file, which is not allowed.<br>
+2. Explanation: Running `cd messages/en-us.txt` tries to change the current directory to a file, which is not allowed, because `cd` cannot open a file. There is txt named en-us.txt inside messages<br>
 > 
-3. Output: It is error. `bash: cd: messages/en-us.txt: Not a directory`, indicating that `messages/en-us.txt` is not a direcory.<br>
+3. Output: It is error. `bash: cd: messages/en-us.txt: Not a directory`. `cd` can be use to direct into a folder but it is not able to open a file.<br>
 > 
 command `ls messages/en-us.txt`:<br>
 >
@@ -77,5 +77,5 @@ command `cat messages/en-us.txt`:<br>
 > 
 2. Explanation: Running `cat messages/en-us.txt messages/es-mx.txt messages/zh-cn.txt` displays the contents of the specified file.<br>
 > 
-3. Output: `Hello World!` `¡Hola Mundo!` `你好世界`.
+3. Output: `Hello World!`.
 
