@@ -8,7 +8,7 @@ command `cd`: <br>
 >
 2. Explanation: Running `cd` command with no arguments changes the current directory to the user's home directory.<br>
 >
-3. Output: It has no output and the directory changes to the user's home directory.<br>
+3. Output: It is not an error.<br>
 >
 command `ls`:<br>
 >
@@ -16,15 +16,15 @@ command `ls`:<br>
 >
 2. Explanation: Running `ls` with no arguments lists the contents of the current directory.<br>
 >
-3. Output: It display lists of files and directories in my laptop.<br>
+3. Output: It is not an error.<br>
 >
 command `cat`:<br>
 >
 1. absolute path before command was run: `/c/Users/HUAWEI`.<br>
 >
-2. Explanation: Running `cat` command with no arguments tries to display the contents of a non-existent file that the terminal will wait for my input something.<br>
+2. Explanation: Running `cat` command with no arguments tries to display the contents of a non-existent file that the terminal will wait for my input something.This behavior will end when I press ctrl+z.<br>
 >
-3. Output: It is error, because it does not display anything and users can quit with ctrl z.<br>
+3. Output: It is not an error.<br>
 >
 ## Share an example of using the command with a path to a directory as an argument.
 ![image](directory.jpg)
@@ -34,7 +34,7 @@ command `cd ./lecture1`:<br>
 >  
 2. Explanation: Running `cd ./lecture1` changes the current directory to the specified directory.<br>
 > 
-3. Output: It has no output, because the directory only changes to the user's home directory.<br>
+3. Output: It is not an error.<br>
 > 
 command `ls ./lecture1`:<br>
 >
@@ -55,7 +55,7 @@ command `cat ./lecture1`:<br>
 ## Share an example of using the command with a path to a file as an argument.
 ![image](file.jpg)
 > 
-command `cd messages`:<br>
+command `cd messages/en-us.txt`:<br>
 >
 1. absoluate path before command was run: `/c/Users/HUAWEI`.<br>
 > 
@@ -63,7 +63,7 @@ command `cd messages`:<br>
 > 
 3. Output: It is error. `bash: cd: messages/en-us.txt: Not a directory`, indicating that `messages/en-us.txt` is not a direcory.<br>
 > 
-command `ls messages`:<br>
+command `ls messages/en-us.txt`:<br>
 >
 1. absoluate path before command was run: `/c/Users/HUAWEI`.<br>
 > 
