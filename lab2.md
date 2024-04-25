@@ -1,5 +1,6 @@
 # Lab Report 2
 ## Part1:
+![image](part1.jpg)<br>
 
 ## Part2:
 ![image](part2.jpg)<br>
