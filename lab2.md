@@ -8,7 +8,7 @@
 `String.equals`: `"s"`, `"user"`<br>
 `String.isEmpty`: `"Hello"`, `"jpolitz"`<br>
 `String.+=`: `"jpolitz: Hello\n"`<br>
-3. `chatMessages` changes from "" to "jpolitz: Hello\n"
+3. `chatMessages` changes from "" to "jpolitz: Hello\n"<br>
 ![image](part1(3).jpg)<br>
 1. method: `handleRequest`.
 2. `handleRequest`: `url.getPath()`= `"/add-message"`, `url.getQuery()` = `"s=How%20are%20you&user=yash"`, `chatMessages` = `"jpolitz: Hello\n"`<br>
