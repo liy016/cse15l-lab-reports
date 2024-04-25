@@ -2,8 +2,8 @@
 ## Part1:
 ![image](part1.jpg)<br>
 ![image](part1(2).jpg)<br>
-1. method: `handleRequest`.
-2. `handleRequest`: `url.getPath()` = `"/add-message"`,`url.getQuery()` = `"s=Hello&user=jpolitz"`,`chatMessages` = `""`<br>
+1.method: `handleRequest`.
+2.`handleRequest`: `url.getPath()` = `"/add-message"`,`url.getQuery()` = `"s=Hello&user=jpolitz"`,`chatMessages` = `""`<br>
 `String.split`: `"s=Hello&user=jpolitz"`<br>
 `String.equals`: `"s"`, `"user"`<br>
 `String.isEmpty`: `"Hello"`, `"jpolitz"`<br>
