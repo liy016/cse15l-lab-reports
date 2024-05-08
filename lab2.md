@@ -3,12 +3,12 @@
 ![image](part1.jpg)<br>
 ### screenshots of `/add-message?s=Hello&user=jpolitz`
 ![image](part1(2).jpg)<br>
-1.The method is `handleRequest(URI url)`and main method.
+1.The method is `handleRequest(URI url)`and main method.<br>
 2.The relevant argument is `url`, which have the value of `new URL("http://localhost:4000/add-message?s=Hello&user=jpolitz")`. The relevant field of class is `String chatMessages`, which is initialized to an empty.<br>
 3.`String chatMessages` changes from `""` to `"jpolitz: Hello"`<br>
 ### screenshots of `/add-message?s=How are you&user=yash`
 ![image](part1(3).jpg)<br>
-1.The method is `handleRequest(URL url)`and main method.
+1.The method is `handleRequest(URL url)`and main method.<br>
 2.The relevant argument is `url`, which have the value of `new URL("http://localhost:4000/add-message?s=How are you&user=yash")`. The relevant field of class is `String chatMessages`, which has the value `"jpolitz: Hello"` stored.<br>
 3.`String chatMessages` changes from `"jpolitz: Hello\n"` to `"jpolitz: Hello\nyash: How are you"`<br>
 ## Part2:
