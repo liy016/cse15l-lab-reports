@@ -9,32 +9,32 @@
 5. For `reverseInPlace`, you can switch the value until it reaches half of the array, and then use a placeholder to make the latter half equal to the first half. For the `reversed` method, you need to ensure that `newArray` is updated with the `reversed` value from the `arr`, and then `newArray` is returned.<br>
 ## Part 2:
 I choose `grep` command:<br>
-All Example and Example from ("https://www.geeksforgeeks.org/grep-command-in-unixlinux/") by searching "grep command-line options".<br>
+All sources is from ("https://www.geeksforgeeks.org/grep-command-in-unixlinux/") by searching "grep command-line options".<br>
 1. `grep -i`: Ignores, case for matching.<br>
-Command: `grep -i "example" example.txt`.<br>
+Command: `grep -i ./technical "example" example.txt`.<br>
 Output: `This is an EXAMPLE text file.``This is another example.`<br>
-Explain: This command searches for the pattern "example" in the file`example.txt`, ignoring case distinctions. This output and Explain are what I get in ChatGPT by typing command.<br>
-Command: `grep -i "UNix" geekfile.txt`.<br>
+Explain: This command searches for the pattern "example" in the file`example.txt`, ignoring case distinctions. This output and explain are what I get in ChatGPT by typing command.<br>
+Command: `grep -i ./technical "UNix" geekfile.txt`.<br>
 Output: `Unix linux which one you choose.`<br>
 Explain: The `-i` option enables to search for a string case insensitively in the given file. It matches the words like “UNIX”, “Unix”, “unix”. <br>
 2. `grep -v`: This prints out all the lines that do not matches the pattern.<br>
 Command: `grep -v "line" example.txt`<br>
 Output: `This is an EXAMPLE text file.``This is another example.`<br>
-Explain: This command excludes lines containing the pattern "line" from the file `example.txt` and prints the remaining lines.This output and Expalain are what I get in ChatGPT by typing command.<br>
+Explain: This command excludes lines containing the pattern "line" from the file `example.txt` and prints the remaining lines.This output and expalain are what I get in ChatGPT by typing command.<br>
 Command: `grep -v "unix" geekfile.txt`<br>
 Output: `learn operation system``Unix linux which one you choose`<br>
 Explain: The lines are not matched with the specified search string pattern using the `-v` option.<br>
 3. `grep -A n`: Prints searched line and nlines after the result.<br>
 Command: `grep -A 1 "example" example.txt`<br>
 Output: `This is an EXAMPLE text file.``This is another example.`<br>
-Explain: This command searches for the pattern "example" in the file `example.txt` and prints the matching line along with the next line after each match. This output and Explain are what I get in ChatGPT by typing command.<br>
+Explain: This command searches for the pattern "example" in the file `example.txt` and prints the matching line along with the next line after each match. This output and explain are what I get in ChatGPT by typing command.<br>
 Command: `grep -A1 learn geekfile.txt`<br>
 Output: learn operation system``Unix linux which one you choose`<br>
 Explain: `-A` prints the searched line and n lines after the result.<br>
 4. `grep -l`: Displays list of a filenames only.<br>
 Command: `grep -l "example" example.txt`<br>
 Output: `example.txt`<br>
-Explain: This command searches for the pattern "example" in the file `example.txt` and prints only the filename because `-l` option is used. This output and Expalain are what I get in ChatGPT by typing command.<br>
+Explain: This command searches for the pattern "example" in the file `example.txt` and prints only the filename because `-l` option is used. This output and expalain are what I get in ChatGPT by typing command.<br>
 Command: `grep -l "unix" *`<br>
 Output: `grep: Desktop: ls a directory``grep: Documents: ls a directory`<br>
 Explain: The files contains the given string/pattern.<br>
