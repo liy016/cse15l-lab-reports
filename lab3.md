@@ -1,7 +1,7 @@
 # Lab Report 3
 ## Part 1:
 1. ```
-   #@Test
+   @Test
    public void testReverseInPlace(){
      int[] input1= {0, 1, 2};
      ArrayExamples.reverseInPlace(input1);
@@ -9,7 +9,7 @@
    ```
    <br>
 2. ```
-   #@Test
+   @Test
    public void testReverseInPlace(){
      int[] input1= {0, 1, 2};
      ArrayExamples.reverseInPlace(input1);
