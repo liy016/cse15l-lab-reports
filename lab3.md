@@ -26,8 +26,8 @@
    }
    ```
    <br>
-   ```
-   static void reverseInPlace(int[] arr) {
+5. ```
+   static void reverseInPlace(int[] arr){
       for(int i = 0; i < arr.length / 2; i += 1) {
          int num = arr[i];
          arr[i] = arr[arr.length - i - 1];
