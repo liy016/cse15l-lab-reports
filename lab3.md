@@ -25,7 +25,7 @@
       arr[i] = arr[arr.length - i - 1];
     }
   }
-  ```
+   ```
   <br>
 5. ```
    static void reverseInPlace(int[] arr) {
