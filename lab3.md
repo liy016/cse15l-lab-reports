@@ -18,6 +18,14 @@
    }
    ```
    <br>
+4. ```
+   static void reverseInPlace(int[] arr){
+      for(int i = 0; i < arr.length; i += 1){
+         arr[i] = arr[arr.length - i - 1];
+      }
+   }
+   ```
+   <br>
 6. For `reverseInPlace`, you can switch the value until it reaches half of the array. Then use a placeholder to make the latter half equal to the first half This method ensures each elemtns is placed in its correct reversed position without overwriting values.<br>
 ## Part 2:
 I choose `grep` command:<br>
