@@ -26,7 +26,7 @@
     }
   }
   ```
-   <br>
+  <br>
 5. ```
    static void reverseInPlace(int[] arr) {
     for(int i = 0; i < arr.length / 2; i += 1) {
