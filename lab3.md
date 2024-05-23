@@ -1,11 +1,23 @@
 # Lab Report 3
 ## Part 1:
-
-
-
-
-
-
+1. ```
+   #@Test
+   public void testReverseInPlace(){
+     int[] input1= {0, 1, 2};
+     ArrayExamples.reverseInPlace(input1);
+     assertArrayEquals(new int[]{0, 1, 2}, input1);
+   ```
+   <br>
+2. ```
+   #@Test
+   public void testReverseInPlace(){
+     int[] input1= {0, 1, 2};
+     ArrayExamples.reverseInPlace(input1);
+     assertArrayEquals(new int[]{2, 1, 0}, input1);
+   ```
+   <br>
+3. 
+4.
 5. 
 ## Part 2:
 I choose `grep` command:<br>
