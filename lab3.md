@@ -6,6 +6,7 @@
      int[] input1= {0, 1, 2};
      ArrayExamples.reverseInPlace(input1);
      assertArrayEquals(new int[]{0, 1, 2}, input1);
+   }
    ```
    <br>
 2. ```
@@ -14,6 +15,7 @@
      int[] input1= {0, 1, 2};
      ArrayExamples.reverseInPlace(input1);
      assertArrayEquals(new int[]{2, 1, 0}, input1);
+   }
    ```
    <br>
 3. ![image](lab3.jpg)<br>
