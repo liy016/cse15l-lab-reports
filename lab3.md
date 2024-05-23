@@ -25,7 +25,7 @@
       }
    }
    ```
-   The above code is the before one.<br>
+   The above code is the "before" one.<br>
 5. ```
    static void reverseInPlace(int[] arr){
       for(int i = 0; i < arr.length / 2; i += 1) {
@@ -35,8 +35,8 @@
       }
    }
    ```
-   The above code is the after one.<br>
-6. For `reverseInPlace`, you can switch the value until it reaches half of the array. Then use a placeholder to make the latter half equal to the first half This method ensures each elemtns is placed in its correct reversed position without overwriting values.<br>
+   The above code is the "after" one.<br>
+6. For `reverseInPlace`, you can switch the value until it reaches half of the array. Then use a placeholder to make the latter half equal to the first half. This method ensures each elemtns is placed in its correct reversed position without overwriting values.<br>
 ## Part 2:
 I choose `grep` command:<br>
 All sources is from ("https://www.geeksforgeeks.org/grep-command-in-unixlinux/") by searching "grep command-line options".<br>
