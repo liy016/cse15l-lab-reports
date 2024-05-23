@@ -16,7 +16,7 @@
      assertArrayEquals(new int[]{2, 1, 0}, input1);
    ```
    <br>
-3. 
+3. ![image](lab3.jpg)<br>
 4.
 5. 
 ## Part 2:
