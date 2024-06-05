@@ -1,10 +1,10 @@
 # Lab report 4
 ![image](step4.jpg)<br>
 Keys pressed: `ssh<space>liy016@ieng6.ucsd.edu<enter>`<br>
-Summary and Effect: command `ssh` is used to securely connect to a remote server ieng6 with the username liy016. The keypresses involved include typing the command, entering the password, and running various commands on the remote server after a successful login.<br>
+Summary and Effect: command `ssh` is used to securely connect to a remote server ieng6 with the username liy016. The keypress is running various commands on the remote server after a successful login.<br>
 ![image](step5.jpg)<br>
 Keys pressed:  `git<space>clone<space>git@github.com:liy016/lab7.git<enter>`<br>
-Summary and Effect: command `git clone`clones the repository located at `git@github.com:liy016/lab7.git` to your local machine. The keypresses initiates the cloning process and results in a local copy of the repository.<br>
+Summary and Effect: command `git clone`clones the repository located at `git@github.com:liy016/lab7.git` to your local machine. The keypress initiates the cloning process and results in a local copy of the repository.<br>
 ![image](step6.jpg)<br>
 Keys pressed:  `cd<space>lab7<enter>`, `bash<space>test.sh<enter>`<br>
 Summary and Effect: command `cd` and `bash` are used to change the directory to lab7 and then execute the `test.sh` script. The keypresses change the directory and run the script. The effect of running `test.sh` depends on the content of the script.<br>
