@@ -1,3 +1,4 @@
 # Part1:
+
 # Part2:
-For Week 10, I learned some different knowledge. First, if I meet some difficult, I will need to ask TAs for help. Then they are able to solve my questions and led my mind to solve the problems. What's more, I learned how to debugging some errors and how to gradeding some code for my machine.
+From my lab experience, I learned how to harness the power of command-line tools for efficient file manipulation and text analysis, significantly improving my data processing skills. Additionally, I discovered the importance of continuous integration (CI) and autograding systems in automating testing and deployment, which has streamlined my workflow. Using debuggers to control processes and troubleshoot code in real-time was another invaluable skill I developed, enhancing my problem-solving capabilities.
