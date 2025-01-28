@@ -5,7 +5,7 @@ Graph 2: BFS: A, C, D, G, F, E, B; DFS: A, C, F, D, E, G, B.<br>
 Graph 3: BFS: A, B, E, G, C, D, F; DFS: A, B, C, D, F, E, G.<br>
 ## 2. There are n cities and m canals, where each canal connects two cities and has an associated integer w ∈ [0, W] representing its width. Suppose that you are at city a and would like to move to city b. A ship can travel on a canal if and only if its width is at most the width of the canal. You would like to move your belongings in as few trips as possible. Therefore, you would like to find a path from a to b that allows you to use the largest ship possible. What is the maximum width of a boat that can travel from city a to city b? 
 ### 1. Give an algorithm that finds both the maximum width and a valid path from city a to city b that allows the ship of that size to pass.
-pseudocode: `function `can_reach(a, b, mid)`<br>
+pseudocode: `function can_reach(a, b, mid)`<br>
 `low = 0;`<br>
 `high = 0;`<br>
 `len(widths) - 1;`<br>
