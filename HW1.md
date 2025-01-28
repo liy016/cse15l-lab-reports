@@ -14,7 +14,7 @@ pseudocode: `function can_reach(a, b, mid)`<br>
 `while low <= high`<br>
 `current_width = widths[mid];`<br>
 `mid = (low + high) // 2;`<br>
-`if can_reach(a, b, mid, current_width)``<br>
+`if can_reach(a, b, mid, current_width)`<br>
 `best_width = current_width`<br>
 `low = mid + 1;`<br>
 `else`<br>
