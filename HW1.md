@@ -5,7 +5,22 @@ Graph 2: BFS: A, C, D, G, F, E, B; DFS: A, C, F, D, E, G, B.<br>
 Graph 3: BFS: A, B, E, G, C, D, F; DFS: A, B, C, D, F, E, G.<br>
 ## 2. There are n cities and m canals, where each canal connects two cities and has an associated integer w ∈ [0, W] representing its width. Suppose that you are at city a and would like to move to city b. A ship can travel on a canal if and only if its width is at most the width of the canal. You would like to move your belongings in as few trips as possible. Therefore, you would like to find a path from a to b that allows you to use the largest ship possible. What is the maximum width of a boat that can travel from city a to city b? 
 ### 1. Give an algorithm that finds both the maximum width and a valid path from city a to city b that allows the ship of that size to pass.
-Correctness: 
+pseudocode: `function `can_reach(a, b, mid)`
+`low = 0;`<br>
+`high = 0;`<br>
+`len(widths) - 1;`<br>
+`best_width = 0;`<br>
+`best_path = [];`<br>
+`while low <= high`<br>
+`current_width = widths[mid];`<br>
+`mid = (low + high) // 2;`<br>
+`if can_reach(a, b, mid, current_width)``<br>
+`best_width = current_width`<br>
+`low = mid + 1;`<br>
+`else`<br>
+`high = mid - 1;`<br>
+`return best_width, best_path`<br>
+Correctness: The algorithm uses binary search on the sorted list of unique widths. This ensures that we efficiently explore the possible widths in logarithmic time relative to the number of unique widths. The algorithm keeps track of the best width found that allows a path from `a` to `b`. The search continues until all possible widths are checked, ensuring that the maximum feasible width is returned.<br>
 ### 2.Write down the runtime of your algorithm in n, m, W. 
 Total runtime is O(mlogm+logW⋅(n+m).<br>
 Justification: This takes O(m) time to iterate through the canals and O(mlog m) time to sort the unique widths. Each binary search step filters edges and performs graph traversal, which is efficient for sparse graphs where m is close to n. The binary search runs in O(log W) time, where W  is the maximum width.<br>
